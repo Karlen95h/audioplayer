@@ -108,5 +108,50 @@ html,body {
 
 }
 
+#currentTime {
+    width: 50%;
+    height: 100%;
+    margin-left: 35px;
+    margin-top: -25px;
+}
 
-/* hasa #currentTime */
+
+.mute {
+    height: 40%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+
+.muteButtons{
+    width: 50%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+
+#decrease{
+    height: 45px;
+    width: 33px;
+    background-size: cover;
+    margin: 5px;
+}
+
+#increase {
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    margin: 5px;
+}
+
+#mute {
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    margin: 5px;
+}
