@@ -16,4 +16,36 @@ var data = {
         "https://thumbs.gfycat.com/EdibleCriminalAntarcticgiantpetrel-size_restricted.gif"
 
     ]
+
 }
+var curentSong = 0;
+var song = new Audio();
+
+console.log(song);
+
+window.onload = function(){
+    playSong()
+}
+
+//playSong()
+//playOrPauseSong
+//next
+//prev
+//decrease
+//muted
+//increase
+//timing
+
+
+function playSong(){
+    song.src = data.song[curentSong];
+    let songTitle = document.getElementById("songTitle");
+    songTitle.textContent = data.title[curentSong];//???
+    let img = document.getElementById('row1');
+    img.style.backgroundImage = "url(" + data.poster[currentSong] + ")";
+    let main  = document.getElementById('main')
+    main.style.backgroundImage = "url("+  data.poster[curentSong] + ")";
+
+}
+
+
